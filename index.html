@@ -22,15 +22,46 @@
   </head>
   <body>
     <div class="page">
-      <p>
-        Este texto utiliza **Inter** como fuente principal y las alternativas
-        especificadas.
-      </p>
-      <p class="serif-text">
-        Este texto utiliza **Noto Serif** como fuente principal y las
-        alternativas especificadas.
-      </p>
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="logo triplexpreso"
+            class="nav_logo"
+          />
+          <ul class="nav__links">
+            <li><a href="#recipes" class="nav__link">Recetas</a></li>
+            <li><a href="#reserve" class="nav__link">Reservar una mesa</a></li>
+            <li><a href="#contacs" class="nav__link">Contactos</a></li>
+          </ul>
+        </nav>
+
+        <h1 class="header__title">
+          <span class="highlight"
+            >Café de especialidad&nbsp;en Triple Peaks</span
+          >
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y motivar tu creatividad.
+        </p>
+
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="imagen de cafetgeria triplepeacks"
+          class="header__image"
+        />
+
+        <div class="header__footer">
+          <p class="header__schedule">
+            Horario: Lunes a Viernes (de 10:00h a 19:00h) Sábados y Domingos (de
+            11:00h a 18:00h)
+          </p>
+          <p class="header__address">
+            Avenida del Éxito 200, Ciudad Triple Peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
         <section class="recipes"></section>
         <section class="reservation"></section>
