@@ -122,3 +122,11 @@
   margin-right: 80px;
   z-index: 1;
 }
+
+.recipes {
+  background-image: url(../images/background_recipes.svg);
+  background-color: #0a2750;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
